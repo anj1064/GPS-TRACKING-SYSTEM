@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeoTrack Pro - Advanced Tracking</title>
+    <title>GeoTrack - Advanced Tracking</title>
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="styles.css">
@@ -12,6 +13,7 @@
     <!-- Lucide Icons (lightweight and modern) -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
     <div class="app-container">
         <!-- Floating Sidebar -->
@@ -21,11 +23,11 @@
                     <i data-lucide="satellite" class="logo-icon"></i>
                 </div>
                 <div>
-                    <h2>GeoTrack <span class="highlight">Pro</span></h2>
+                    <h2>GeoTrack </h2>
                     <p class="subtitle">Field Intelligence</p>
                 </div>
             </div>
-            
+
             <div class="nav-wrapper">
                 <nav class="nav-menu">
                     <button class="nav-btn active" id="btn-live">
@@ -75,7 +77,7 @@
                     <!-- Report stats -->
                 </div>
             </div>
-            
+
             <div class="sidebar-footer">
                 <div class="system-status">
                     <div class="status-dot green pulse"></div>
@@ -88,7 +90,7 @@
         <main class="main-content">
             <!-- Map Container -->
             <div id="map"></div>
-            
+
             <!-- Map Overlay UI: Top Right -->
             <div class="map-overlay top-right glass-panel">
                 <div class="stat-item">
@@ -116,4 +118,5 @@
     <!-- Initialize Lucide Icons -->
     <script>lucide.createIcons();</script>
 </body>
+
 </html>
