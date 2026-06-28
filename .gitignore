@@ -1,0 +1,10 @@
+# Node.js
+backend/node_modules/
+backend/data.json
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
